@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: gold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("hotel.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    min-height: 500px;
+}
+
+#home h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    background: gold;
+    color: #111;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #111;
+    color: gold;
+}
+
+#rooms {
+    background: white;
+}
+
+#rooms h2,
+#services h2,
+#contact h2 {
+    color: #111;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#rooms div {
+    display: inline-block;
+    width: 28%;
+    min-width: 250px;
+    background: #f5f5f5;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#rooms h3 {
+    color: #b8860b;
+    margin-bottom: 15px;
+}
+
+#services {
+    background: #eee;
+}
+
+#services li {
+    list-style: none;
+    margin: 12px;
+    font-size: 18px;
+}
+
+#contact {
+    background: white;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#rooms {
+    background: #f5f5f5;
+    padding: 60px 20px;
+}
+
+#rooms h2 {
+    font-size: 35px;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+#rooms div {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    min-width: 250px;
+    margin: 15px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#rooms h3 {
+    color: #c49b00;
+    font-size: 24px;
+}
+
+#rooms p {
+    margin: 12px 0;
+}
+
+#rooms button {
+    background: #111;
+    color: gold;
+}
+
+#rooms button:hover {
+    background: gold;
+    color: #111;
+}
+/* ABOUT US */
+#about {
+    background: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #111;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}

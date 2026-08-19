@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vicki Sparkle Hotel</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Vicki Sparkle Hotel</h1>
+        <p>Luxury • Comfort • Excellence</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home">
+
+        <h2>Welcome to Vicki Sparkle Hotel</h2>
+
+        <p>
+            Experience comfort, luxury and excellent hospitality
+            at Vicki Sparkle Hotel.
+        </p>
+
+        <button>Book a Room</button>
+
+    </section>
+
+
+    <!-- ROOMS -->
+    <section id="rooms">
+
+        <h2>Our Rooms</h2>
+
+        <div>
+            <img src="deluxe.jpg" alt="Deluxe Room">
+
+            <h3>Deluxe Room</h3>
+
+            <p>
+                Comfortable room with modern facilities.
+            </p>
+
+            <p>₦50,000 per night</p>
+
+            <button>Book Now</button>
+        </div>
+
+
+        <div>
+            <img src="executive.jpg" alt="Executive Room">
+
+            <h3>Executive Room</h3>
+
+            <p>
+                Spacious room designed for premium comfort.
+            </p>
+
+            <p>₦80,000 per night</p>
+
+            <button>Book Now</button>
+        </div>
+
+
+        <div>
+            <img src="suite.jpg" alt="Royal Suite">
+
+            <h3>Royal Suite</h3>
+
+            <p>
+                Luxury suite with premium hotel facilities.
+            </p>
+
+            <p>₦120,000 per night</p>
+
+            <button onclick="document.getElementById('booking').scrollIntoView({behavior: 'smooth'})">
+    Book a Room
+            </button>
+        </div>
+
+    </section>
+
+<section id="booking">
+
+    <h2>Book Your Room</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required>
+
+        <label>Select Room</label>
+        <select required>
+            <option value="">Choose a room</option>
+            <option>Deluxe Room - ₦50,000</option>
+            <option>Executive Room - ₦80,000</option>
+            <option>Royal Suite - ₦120,000</option>
+        </select>
+
+        <label>Check-in Date</label>
+        <input type="date" required>
+
+        <label>Check-out Date</label>
+        <input type="date" required>
+
+        <button type="submit">Submit Booking</button>
+
+    </form>
+
+</section>
+    <!-- SERVICES -->
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <ul>
+            <li>Free Wi-Fi</li>
+            <li>Swimming Pool</li>
+            <li>Restaurant</li>
+            <li>24/7 Room Service</li>
+            <li>Airport Pickup</li>
+        </ul>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📞 Phone: 0810 024 7194</p>
+
+        <p>📧 Email: destinyaniedi18@gmail.com</p>
+
+        <p>📍 Location: Lagos, Nigeria</p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Vicki Sparkle Hotel.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+<!-- ABOUT US -->
+<section id="about">
+
+    <h2>About Vicki Sparkle Hotel</h2>
+
+    <p>
+        Vicki Sparkle Hotel is a modern luxury hotel dedicated
+        to providing comfort, quality and excellent hospitality.
+        Our goal is to make every guest's stay relaxing,
+        memorable and enjoyable.
+    </p>
+
+    <p>
+        From comfortable rooms to excellent dining and
+        outstanding customer service, we are committed to
+        giving our guests a wonderful experience.
+    </p>
+
+</section>
+<!-- GALLERY -->
+<section id="gallery">
+
+    <h2>Our Gallery</h2>
+
+    <div class="gallery-container">
+
+        <img src="gallery1.jpg" alt="Vicki Sparkle Hotel">
+        <img src="gallery2.jpg" alt="Hotel Bedroom">
+        <img src="gallery3.jpg" alt="Hotel Swimming Pool">
+        <img src="gallery4.jpg" alt="Hotel Restaurant">
+        <img src="gallery5.jpg" alt="Hotel Lobby">
+        <img src="gallery6.jpg" alt="Hotel Exterior">
+
+    </div>
+
+</section>
